@@ -25,7 +25,7 @@ If your data is saved in Excel or CSV format, you can refer to 'read_in_data.py'
 ## 2. 
 End point is hosted @ https://adb-65044996157806.6.azuredatabricks.net/serving-endpoints/milkbot_python/invocations
 
-You can refer to xxx on making requests to the endpoint
+You can refer to 'main_request.py' on making requests to the endpoint
 
 Note: Run calculations for parities 1, 2, and 3+ separately to avoid potential crashes. If the endpoint still crashes, re-run the code. This often resolves the issue.
 
