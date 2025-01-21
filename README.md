@@ -19,7 +19,7 @@ where the dataframe example is demonstrated from a Pandas DataFrame, and it shou
 | 2               | 65       | 34.9        |
 | 3               | 60       | 42.1        |
 
-If your data is saved in Excel or CSV format, you can use the function xxxxx to read and convert it into the required JSON format
+If your data is saved in Excel or CSV format, you can refer to 'read_in_data.py' to read and convert it into the required JSON format
 
 
 ## 2. 
@@ -31,4 +31,4 @@ Note: Run calculations for parities 1, 2, and 3+ separately to avoid potential c
 
 ## 3. 
 
-After completing the calculations via the endpoint, you can follow the example xxx to visualize the results. Due to the Bayesian nature of the model, suboptimal results may occasionally occur. If this happens, re-running the process often yields better outcomes.
+After completing the calculations via the endpoint, you can follow the example 'visual_result.py' to visualize the results. Due to the Bayesian nature of the model, suboptimal results may occasionally occur. If this happens, re-running the process often yields better outcomes.
