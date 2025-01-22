@@ -21,7 +21,7 @@ Before using the endpoint, ensure your data is in the following JSON format:
 }
 ```
 
-The above JSON format is derived from a Pandas DataFrame that should look like this:
+The above JSON format is derived from a Pandas DataFrame that should look similarly like this:
 
 | LactationNumber |DaysInMilk| MilkYieldKg |
 |-----------------|----------|-------------|
@@ -29,7 +29,7 @@ The above JSON format is derived from a Pandas DataFrame that should look like t
 | 2               | 65       | 34.9        |
 | 3               | 60       | 42.1        |
 
-Tip: If your data is stored in Excel or CSV format, you can use the script `read_in_data.py` to read and convert it into the required JSON format.
+Tip: If your data is stored in Excel or CSV format and follow the same format as above, you can use the script `read_in_data.py` to read and convert it into the required JSON format.
 
 
 ## 2. Endpoint Usage
@@ -42,7 +42,7 @@ Note: Run calculations for parities 1, 2, and 3+ separately to avoid potential c
 
 ## 3. Post-Processing and Visualization
 
-After completing the calculations via the endpoint, you can follow the example `visual_result.py` to visualize the results. Due to the Bayesian nature of the model, suboptimal results may occasionally occur. If this happens, re-running the process often yields better outcomes.
-If it works, you may see a similar graph as below.
+After completing the calculations via the endpoint, you can follow the example `visual_result.py` to visualize the results. Due to the Bayesian nature of the model and computation power limit, suboptimal results may occur. If this happens, re-running the process often yields better outcomes.
+Upon completing the process, you may see a similar graph as below.
 
-<img src ='https://github.com/EnhongLiu/MilkBot_EndPoint/blob/6ce5bd5dddf801da7469fe1136c6dfd3bbce235a/milkbot%20fitted%20line.png' width="500">
+<img src ='https://github.com/EnhongLiu/MilkBot_EndPoint/blob/6ce5bd5dddf801da7469fe1136c6dfd3bbce235a/milkbot%20fitted%20line.png' width="700">
