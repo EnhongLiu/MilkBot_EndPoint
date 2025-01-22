@@ -19,6 +19,8 @@ Before using the endpoint, ensure your data is in the following JSON format:
     ]  
   }
 }
+```
+
 The above JSON format is derived from a Pandas DataFrame that should look like this:
 
 | LactationNumber |DaysInMilk| MilkYieldKg |
