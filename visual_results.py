@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def predict_milk_yield(dim_range, posterior_parameters):
     scale_posterior, ramp_posterior, decay_posterior, offset_posterior = posterior_parameters
 
@@ -14,12 +15,12 @@ def predict_milk_yield(dim_range, posterior_parameters):
 
 
 par_result = {
-            "1":[parity1_para['predictions']['scale'], parity1_para['predictions']['ramp'], parity1_para          ['predictions']['decay'], parity1_para['predictions']['offset']], 
+            "1":[parity1_para['predictions']['scale'], parity1_para['predictions']['ramp'], parity1_para['predictions']['decay'], parity1_para['predictions']['offset']], 
             "2":[parity2_para['predictions']['scale'], parity2_para['predictions']['ramp'], parity2_para['predictions']['decay'], parity2_para['predictions']['offset']],
             "3+":[parity3_para['predictions']['scale'], parity3_para['predictions']['ramp'], parity3_para['predictions']['decay'], parity3_para['predictions']['offset']]
 }
 
-# Prepare raw data
+# Prepare raw data for visuals
 milk_data = pd.read_csv('path/xxxxxxx')
 integer_columns = ['DaysInMilk',  'LactationNumber']
 milk_data[integer_columns] = milk_data[integer_columns].apply(pd.to_numeric, errors='coerce').astype('Int64')
