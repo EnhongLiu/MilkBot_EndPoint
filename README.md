@@ -43,6 +43,6 @@ Note: Run calculations for parities 1, 2, and 3+ separately to avoid potential c
 ## 3. Post-Processing and Visualization
 
 After completing the calculations via the endpoint, you can follow the example `visual_result.py` to visualize the results. Due to the Bayesian nature of the model, suboptimal results may occasionally occur. If this happens, re-running the process often yields better outcomes.
-If it works, you may see graph as below.
+If it works, you may see a similar graph as below.
 
 <img src ='https://github.com/EnhongLiu/MilkBot_EndPoint/blob/6ce5bd5dddf801da7469fe1136c6dfd3bbce235a/milkbot%20fitted%20line.png' width="500">
