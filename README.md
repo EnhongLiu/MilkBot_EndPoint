@@ -35,7 +35,7 @@ Tip: If your data is stored in Excel or CSV format and follow the same format as
 ## 2. Endpoint Usage
 End point is hosted @ https://adb-65044996157806.6.azuredatabricks.net/serving-endpoints/milkbot_python/invocations
 
-You can refer to `main_request.py` on making requests to the endpoint
+You can refer to [`main_request.py`](https://github.com/EnhongLiu/MilkBot_EndPoint/blob/1c7b3717540f54a8c808177cab7c5c1bfc3bd84e/main_request.py) on making requests to the endpoint
 
 Note: Run calculations for parities 1, 2, and 3+ separately to avoid potential crashes. If the endpoint still crashes, re-run the code. This often resolves the issue.
 
