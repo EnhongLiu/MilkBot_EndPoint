@@ -3,7 +3,7 @@ import json
 
 # Endpoint URL and Token
 endpoint_url = "https://adb-65044996157806.6.azuredatabricks.net/serving-endpoints/milkbot_python/invocations"
-api_token = "dapi7390b3f7a8386b3831c19675b7503579-3"
+api_token = "xxxx"
 
 # Headers
 headers = {
